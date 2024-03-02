@@ -42,8 +42,6 @@ export default function MobileMenu() {
       <button
         ref={trigger}
         className={`hamburger ${mobileNavOpen && "active"}`}
-        aria-controls="mobile-nav"
-        aria-expanded={mobileNavOpen}
         onClick={() => setMobileNavOpen(!mobileNavOpen)}
       >
         <span className="sr-only">Menu</span>
